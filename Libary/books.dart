@@ -24,9 +24,9 @@ class Book {
   void display() {
     print('book tittle:${gettitle()}');
     print('book author:${getauthor()}');
-    print('book has published now:${getPublicationYear()}');
-    print('pageRead:${pagesRead}');
-    print("jsbook age:${getBookAge(2024)}");
+    print('book has published :${getPublicationYear()}');
+    print('pageRead:${pagesRead} pages');
+    print("book age:${getBookAge(2024)}");
   }
 
   static int totalbook = 0;
