@@ -3,6 +3,7 @@ class Book {
   String? author;
   int? publicationYear;
   int? pagesRead;
+  static int totalbook = 0;
   Book(this.tile, this.author, this.publicationYear, this.pagesRead) {
     totalbook++;
   }
@@ -29,5 +30,5 @@ class Book {
     print("book age:${getBookAge(2024)}");
   }
 
-  static int totalbook = 0;
+ 
 }
